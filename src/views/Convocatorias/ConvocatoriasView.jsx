@@ -102,27 +102,6 @@ export default function ConvocatoriasView({ tipo = "CONVOCATORIAS" }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       
-      {/* ─── DECORADORES FLOTANTES ────────────────────────────────────────── */}
-      <FloatingDecorator 
-        src="/png_decoradores/shape-01.png" 
-        size={160} x="2%" y="5%" delay={0} duration={14} 
-        color={primaryColor}
-      />
-      <FloatingDecorator 
-        src="/png_decoradores/shape-02.png" 
-        size={140} x="85%" y="8%" delay={1} duration={12} 
-        color={secondaryColor}
-      />
-      <FloatingDecorator 
-        src="/png_decoradores/dark-shape-09.png" 
-        size={200} x="-2%" y="75%" delay={2} duration={16} rotate={false}
-        color={primaryColor}
-      />
-      <FloatingDecorator 
-        src="/png_decoradores/dark-shape-13.png" 
-        size={170} x="86%" y="80%" delay={1.5} duration={14} rotate={false}
-        color={secondaryColor}
-      />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         

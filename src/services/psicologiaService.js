@@ -13,3 +13,7 @@ export const getRecursos = () =>
 
 export const getGacetaEventos = () =>
   axiosInstance.get(`institucion/${ID}/gacetaEventos`);
+
+// ✅ CORREGIDO - Usa la misma estructura que getContenido
+export const getPublicaciones = () =>
+  axiosInstance.get(`institucion/${ID}/publicaciones`);
