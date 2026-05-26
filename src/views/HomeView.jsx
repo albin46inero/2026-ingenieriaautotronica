@@ -132,7 +132,7 @@ export default function HomeView() {
         </div>
       </section>
 
-     // En la sección de PUBLICACIONES (línea ~165 aprox):
+  
 <section className="py-20 bg-white/70 backdrop-blur-sm relative z-10">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <LatestPublicaciones 
